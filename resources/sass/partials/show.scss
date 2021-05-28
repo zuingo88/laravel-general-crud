@@ -1,0 +1,34 @@
+#show {
+    padding: 30px;
+    background-color: lemonchiffon;
+
+    h1 {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .options {
+        width: 215px;
+
+        a {
+            margin: 5px;
+            padding: 10px;
+            background-color: white;
+            border: solid 1px black;
+            border-radius: 10px;
+
+            &:hover {
+                background-color: black;
+            }
+        }
+
+        a.mod:hover {
+            color: yellow;
+        }
+
+        a.del:hover {
+                color: red;
+        }
+        
+    }
+}
